@@ -3,7 +3,7 @@ LangGraph Fundamentals
 
 **Nodes, Edges, Graphs**
 
-Nodes are just python functions.
+Nodes are just python functions.   
 
 Edges connect the nodes.
 
