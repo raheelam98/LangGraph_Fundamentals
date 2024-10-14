@@ -1,6 +1,6 @@
 # LangGraph_Fundamentals  
 LangGraph Fundamentals
-
+  
 **Nodes, Edges, Graphs**
 
 Nodes are just python functions.   
