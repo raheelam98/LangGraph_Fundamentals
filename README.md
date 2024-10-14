@@ -15,18 +15,22 @@ print(type())  # displays the type of the object or value passed inside type().
 
 #### create schema
 
+```bash
 from typing_extensions import TypedDict
 
 class LearningStateClass(TypedDict):
     prompt: str
+```
 
 **TypedDict** allows you to define dictionaries with a specific structure and type-checked keys for more reliable code
 
 #### define function : Nodes are just python functions.
 
+```bash
 def node_function(state_parameter: LearningStateClass) -> LearningStateClass:
     print("---Node 1 State---", state_parameter)
-    return {"prompt": state_parameter['prompt'] +" I am"}    
+    return {"prompt": state_parameter['prompt'] +" I am"}
+```   
 
 **Construct Graph**
 
